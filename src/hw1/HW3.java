@@ -80,14 +80,14 @@ public class HW3 {
 //		
 		
 //		Q3
-		int lottery[][] = new[6][9]; 
+		int lottery[][] = new int [6][9]; 
 		System.out.println("請輸入不想要的數字");
 		Scanner typein3 = new Scanner(System.in);
 		int t4 =typein3.nextInt();
 		
 		for(int i = 0; i<lottery.length; i++) {
 			for(int j = 0; j < lottery[i].length; j++)
-			if(lottery[i]!=t4 && lottery[j] !=t4) {
+			if(lottery[i]!=t4 && lottery[j]!=t4) {
 				
 				System.out.println(lottery[i][j]);
 			};
